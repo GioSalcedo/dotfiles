@@ -71,4 +71,4 @@ export EDITOR=code
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
 sudo /etc/init.d/postgresql start
-eval "$(oh-my-posh init zsh --config ~/jandedobbeleer.omp.json)"
+# eval "$(oh-my-posh init zsh --config ~/jandedobbeleer.omp.json)"sudo /etc/init.d/postgresql start
