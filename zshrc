@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
-plugins=(gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv zsh-autosuggestions ssh-agent)
+plugins=(gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv zsh-autosuggestions z ssh-agent)
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
@@ -70,5 +70,4 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
-sudo /etc/init.d/postgresql start
-# eval "$(oh-my-posh init zsh --config ~/jandedobbeleer.omp.json)"sudo /etc/init.d/postgresql start
+# eval "$(oh-my-posh init zsh --config ~/jandedobbeleer.omp.json)"
